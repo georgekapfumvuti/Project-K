@@ -6,4 +6,11 @@
   then cypress window will open
 5- click on test which is appear in cypress browser badpage.feature, multimodal.feature and htmlcss.feature 
    the test will then start to execute
-6- on right top in cypress window there is option to change the browser 
+6- on right top in cypress window there is option to change the browser
+
+**************************************************************************************
+To Run Though Docker Image
+1- Pull image from dockerhub: docker pull p1810005/k-project-cypress-cucumber-bdd:v1
+2- To run image on container using firefox: docker run p1810005/k-project-cypress-cucumber-bdd:v1 run --browser firefox
+                        or
+    To run image on container using chrome: docker run p1810005/k-project-cypress-cucumber-bdd:v1 run --browser chrome
